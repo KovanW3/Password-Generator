@@ -62,7 +62,8 @@ h3 {
     line-height: 10px;
     height: 15px;
     margin-top: 10px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
 }
 
 .input {
@@ -89,6 +90,7 @@ button {
     letter-spacing: 1px;
     margin-top: 20px;
     margin-bottom: 0px;
+    font-family: "Inter", sans-serif;
 }
 
 .passwords {
@@ -110,5 +112,6 @@ button {
 .actualpasswords {
     
    margin-left: auto;
-   margin-right: auto;  
+   margin-right: auto;
+   font-family: "Inter", sans-serif;  
 }
