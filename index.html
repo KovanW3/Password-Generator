@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="mainsection">
+            <h1>Generate a <br><span>random password</span></br></h1>
+            <h2>Never use an insecure password again.</h2>
+            <div id="password-section">
+                <div class="input">
+                    <h3 id="passwordlength">Password Length</h3>
+                    <input id="input-length" type="number" placeholder="Enter length"></input>
+                </div>
+                <div class="input">
+                    <h3>Include Numbers & Symbols</h3>
+                    <input type="checkbox" id="numbers-checkbox"></input>    
+                </div>
+                <button onclick="generatePassword()">Generate Passwords</button>
+            </div>
+        </div>
+            <div class="passwords">
+                <p id="password-one" class="actualpasswords"></p>
+            </div>
+            <div class="passwords">
+                <p id="password-two" class="actualpasswords"></p>
+            </div>
+        <a href="index.html" target="_blank">New Tab</a>
+        <script src="index.js"></script>     
+    </body>
+</html>
